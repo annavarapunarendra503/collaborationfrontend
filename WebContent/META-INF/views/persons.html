@@ -1,0 +1,30 @@
+<body ng-app="app">
+  <div ng-controller="PersonCtrl">
+     <table>
+        <thead>
+          <tr>
+             <th>ID</th>
+             <th>FIRSTNAME</th>
+             <th>LASTNAME</th>
+             <th>EMAIL</th>
+             <th>PHONENUMBER</th>
+             
+             </tr>
+             </thead>
+             <tbody>
+               <tr ng-repeat="p in persons">
+               <td>{{p.id}}</td>
+               <td>{{p.firstname}}</td>
+               <td>{{p.lastname}}</td>
+               <td>{{p.email}}</td>
+               <td>{{p.phonenumber}}</td>
+               
+               </tr>
+               </tbody>
+               
+               </table>
+               
+          </div>
+    </body>
+             
+   
